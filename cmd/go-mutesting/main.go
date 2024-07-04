@@ -18,16 +18,16 @@ import (
 	"strings"
 	"syscall"
 
+	"github.com/andrealim11/go-mutesting"
 	"github.com/jessevdk/go-flags"
 	"github.com/zimmski/go-tool/importing"
 	"github.com/zimmski/osutil"
 
-	"github.com/zimmski/go-mutesting"
-	"github.com/zimmski/go-mutesting/astutil"
-	"github.com/zimmski/go-mutesting/mutator"
-	_ "github.com/zimmski/go-mutesting/mutator/branch"
-	_ "github.com/zimmski/go-mutesting/mutator/expression"
-	_ "github.com/zimmski/go-mutesting/mutator/statement"
+	"github.com/andrealim11/go-mutesting/astutil"
+	"github.com/andrealim11/go-mutesting/mutator"
+	_ "github.com/andrealim11/go-mutesting/mutator/branch"
+	_ "github.com/andrealim11/go-mutesting/mutator/expression"
+	_ "github.com/andrealim11/go-mutesting/mutator/statement"
 )
 
 const (

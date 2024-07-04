@@ -7,10 +7,10 @@ import (
 	"io/ioutil"
 	"testing"
 
+	"github.com/andrealim11/go-mutesting"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/zimmski/go-mutesting"
-	"github.com/zimmski/go-mutesting/mutator"
+	"github.com/andrealim11/go-mutesting/mutator"
 )
 
 // Mutator tests a mutator.
